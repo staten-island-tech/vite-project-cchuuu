@@ -1,3 +1,20 @@
 import "../CSS/custom.css";
 
+html, body *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
 
+.lightmode {
+  background-color: var(--white);
+}
+
+.darkmode {
+  background-color: var(--black);
+}
+
+body {
+  background-color: var(--primary)
+}
