@@ -87,7 +87,7 @@ const GroceryItems = [
     name: "Strawberry",
     price: "$3.60",
     type: "Fruit",
-    image: "images/strawyberry.jfif",
+    image: "images/strawberry.jfif",
   },
   {
     name: "Duck",
@@ -122,3 +122,5 @@ const GroceryItems = [
 ];
 
 export { GroceryItems };
+
+console.log(GroceryItems.length);

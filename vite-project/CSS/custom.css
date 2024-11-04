@@ -1,12 +1,17 @@
 :root {
-    --black: #000000;
-    --white: #ffffff;
-    --primary: #808080;
-  
     --h1: 7.594rem; 
-    --h2: 5rem;
     --h3: 4rem;
-    --h4: 3rem;
-    --h5: 2rem;
+    --p: 2rem;
+
+
+    --white: #FFFFFF; /*Dark mode font color*/
+    --light: #DEE4E7; /*Card color for light mode*/
+    --black: #000000; /*Light mode font color*/
+    --dark: #222222; /*Card color for dark mode*/
+
+
+    
+
+
 }
 

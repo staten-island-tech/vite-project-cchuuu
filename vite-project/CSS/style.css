@@ -1,4 +1,4 @@
-import "../CSS/custom.css";
+@import url(custom.css);
 
 html, body *{
   margin: 0;
@@ -7,14 +7,61 @@ html, body *{
   font-size: 10px;
 }
 
+h1 {
+  font-size: var(--h1);
+  text-align: center  ;
+}
+h3 {
+  font-size: var(--h3);
+}
+
+p {
+  font-size: var(--p);
+}
+
 .lightmode {
-  background-color: var(--white);
+  --bg-color: var(--white);
+  --font-color: var(--black);
+  --card-color: var(--light);
 }
 
 .darkmode {
-  background-color: var(--black);
+  --bg-color: var(--black);
+  --font-color: var(--white);
+  --card-color: var(--dark);
 }
 
 body {
-  background-color: var(--primary)
+  background-color: var(--bg-color);
+  color: var(--font-color)
+}
+
+.card {
+    width: 20%;
+    height: 20vw;
+    background-color: var(--card-color);
+    border-radius: 48px;
+    display: flex;
+    margin: 32px;
+    border: 2px solid black;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    object-fit: contain;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.image {
+  width: 80%;
+  height: 60%;
+  align-items: center;
+  border-radius: 10px;
 }
