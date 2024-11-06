@@ -17,3 +17,7 @@ function addCards() {
   });
 }
 addCards();
+
+function filterItems(type) {
+  GroceryItems.filter((item) => item.type === type);
+}
