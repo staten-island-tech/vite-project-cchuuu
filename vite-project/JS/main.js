@@ -16,8 +16,25 @@ function addCards() {
     );
   });
 }
-addCards();
 
 function filterItems(type) {
   GroceryItems.filter((item) => item.type === type);
 }
+
+function changeThemes() {
+  DOMSelectors.darkModeBtn.addEventListener("click", function () {
+    if (document.body.classList.contains("lightmode")) {
+      document.body.classList.add("darkmode");
+      document.body.classList.remove("lightmode");
+    }
+  });
+  DOMSelectors.lightModeBtn.addEventListener("click", function () {
+    if (document.body.classList.contains("darkMode")) {
+      document.body.classList.add("lightMode");
+      document.body.classList.remove("darkMode");
+    }
+  });
+}
+
+addCards();
+changeThemes();
