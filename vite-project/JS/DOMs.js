@@ -3,6 +3,9 @@ const DOMSelectors = {
   container: document.querySelector(".container"),
   darkModeBtn: document.getElementById("darkModeBtn"),
   lightModeBtn: document.getElementById("lightModeBtn"),
+  fruitsBtn: document.getElementById("fruitsBtn"),
+  vegetablesBtn: document.getElementById("vegetablesBtn"),
+  meatBtn: document.getElementById("meatBtn"),
 };
 
 export { DOMSelectors };
