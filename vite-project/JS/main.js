@@ -59,5 +59,9 @@ function filterCategories() {
   });
 }
 
-filterCategories();
-changeThemes();
+function main() {
+  filterCategories();
+  changeThemes();
+}
+
+main();
