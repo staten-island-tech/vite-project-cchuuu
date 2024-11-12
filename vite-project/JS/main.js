@@ -62,6 +62,18 @@ function filterCategories() {
     const meat = includeItems("Meat");
     addCards(meat);
   });
+
+  DOMSelectors.dairyBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    const dairy = filterItems("Dairy");
+    addCards(dairy);
+  });
+
+  DOMSelectors.grainBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    const grain = filterItems("Grain");
+    addCards(grain);
+  });
 }
 
 function main() {

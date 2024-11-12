@@ -6,7 +6,9 @@ const DOMSelectors = {
   fruitsBtn: document.getElementById("fruitsBtn"),
   vegetablesBtn: document.getElementById("vegetablesBtn"),
   meatBtn: document.getElementById("meatBtn"),
-  allBtn: document.getElementById("All"),
+  allBtn: document.getElementById("allBtn"),
+  dairyBtn: document.getElementById("dairyBtn"),
+  grainBtn: document.getElementById("grainBtn"),
 };
 
 export { DOMSelectors };
