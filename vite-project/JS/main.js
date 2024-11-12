@@ -40,6 +40,11 @@ function changeThemes() {
 function filterCategories() {
   addCards();
 
+  DOMSelectors.allBtn.addEventListener("click", (event) => {
+    event.preventDefault();
+    addCards();
+  });
+
   DOMSelectors.fruitsBtn.addEventListener("click", (event) => {
     event.preventDefault();
     const fruits = filterItems("Fruit");
